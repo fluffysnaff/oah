@@ -63,3 +63,7 @@ OAH is a C++ project designed to work on Windows using Visual Studio.
 - Spuckwaffel - [UEDump](https://github.com/Spuckwaffel/UEDumper)
 - Encryqed - [Dumper7](https://github.com/Encryqed/Dumper-7)
 - Rebzzel - [DX11 hook](https://github.com/Rebzzel/kiero)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=fluffysnaff/oah&type=Date)](https://star-history.com/#fluffysnaff/oah&Date)
