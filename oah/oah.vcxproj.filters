@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Source Files\gui">
-      <UniqueIdentifier>{85cc1906-f68c-4c6f-ae46-0cd251ed2873}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\esp">
-      <UniqueIdentifier>{73beaa64-383d-4647-b357-57aeba88e94c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\base">
-      <UniqueIdentifier>{d53893da-d1ac-40c7-8823-e2bba2d50369}</UniqueIdentifier>
-    </Filter>
     <Filter Include="libs">
       <UniqueIdentifier>{70f4f134-c967-4b3c-8831-e0391ebf5f28}</UniqueIdentifier>
     </Filter>
@@ -29,37 +16,50 @@
     <Filter Include="libs\UEDump\SDK">
       <UniqueIdentifier>{d9e8fb10-5fd6-43af-a346-53f77bd722ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{85cc1906-f68c-4c6f-ae46-0cd251ed2873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\esp">
+      <UniqueIdentifier>{73beaa64-383d-4647-b357-57aeba88e94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{d53893da-d1ac-40c7-8823-e2bba2d50369}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kfn_config.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="kfn_hacks.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="kfn_logger.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="kfn_manager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="esp\kfn_esp.cpp">
-      <Filter>Source Files\esp</Filter>
+      <Filter>src\esp</Filter>
     </ClCompile>
     <ClCompile Include="esp\kfn_esp_base.cpp">
-      <Filter>Source Files\esp</Filter>
+      <Filter>src\esp</Filter>
     </ClCompile>
     <ClCompile Include="gui\kfn_gui.cpp">
-      <Filter>Source Files\gui</Filter>
+      <Filter>src\gui</Filter>
     </ClCompile>
     <ClCompile Include="gui\kfn_gui_base.cpp">
-      <Filter>Source Files\gui</Filter>
+      <Filter>src\gui</Filter>
     </ClCompile>
     <ClCompile Include="gui\main_window.cpp">
-      <Filter>Source Files\gui</Filter>
+      <Filter>src\gui</Filter>
     </ClCompile>
     <ClCompile Include="libs\UEDump\SDK\ActorLayerUtilities_functions.cpp">
       <Filter>libs\UEDump\SDK</Filter>
@@ -1146,37 +1146,37 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="kfn_config.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="kfn_enums.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="kfn_hacks.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="kfn_logger.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="kfn_manager.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="kfn_version.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="variables.h">
-      <Filter>Source Files</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="base\color.h">
-      <Filter>Source Files\base</Filter>
+      <Filter>src\base</Filter>
     </ClInclude>
     <ClInclude Include="base\functions.h">
-      <Filter>Source Files\base</Filter>
+      <Filter>src\base</Filter>
     </ClInclude>
     <ClInclude Include="esp\kfn_esp.h">
-      <Filter>Source Files\esp</Filter>
+      <Filter>src\esp</Filter>
     </ClInclude>
     <ClInclude Include="gui\kfn_gui.h">
-      <Filter>Source Files\gui</Filter>
+      <Filter>src\gui</Filter>
     </ClInclude>
     <ClInclude Include="libs\includes.h">
       <Filter>libs</Filter>
